@@ -9,7 +9,7 @@ interface Props {
 
 const OrderProjectImg: React.FC<Props> = ({ orderProjectImage }) => {
   return (
-    <Image
+    <img
       className="max-w-full md:max-w-[600px] w-full"
       src={orderProjectImage.src}
       alt="computer"

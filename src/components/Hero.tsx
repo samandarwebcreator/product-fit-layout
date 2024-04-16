@@ -15,7 +15,7 @@ interface Props {
 
 const HeroComponent: React.FC<Props> = ({ heroImage }) => {
   return (
-    <Image
+    <img
       className="max-w-full md:max-w-[60%] w-full h-auto mx-auto"
       src={heroImage.src}
       alt="computer"

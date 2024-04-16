@@ -8,7 +8,7 @@ interface Props {
 }
 
 const OpenGiftComp: React.FC<Props> = ({ openGift }) => {
-  return <Image className=" w-52" src={openGift.src} alt="Open Gift" />;
+  return <img className=" w-52" src={openGift.src} alt="Open Gift" />;
 };
 export default function OpenGift() {
   return (

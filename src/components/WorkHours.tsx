@@ -5,7 +5,7 @@ export default function WorkHours() {
   return (
     <div className="container flex items-start justify-between flex-col md:flex-row gap-20 py-20">
       <div>
-        <Image
+        <img
           width={400}
           height={300}
           src="https://i.ibb.co/VvTpyV2/Group.png"

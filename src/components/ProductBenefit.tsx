@@ -17,7 +17,7 @@ export default function ProductBenefit() {
               className="p-10 max-w-full md:max-w-[400px] w-full bg-[#F7F9FD] cursor-pointer rounded-xl flex items-center justify-center flex-col h-[350px] border border-transparent hover:border-brand-color hover:opacity-90"
               key={id}
             >
-              <Image width={imgWidth} height={200} src={imgSrc} alt={altText} />
+              <img width={imgWidth} height={200} src={imgSrc} alt={altText} />
               <h3 className="text-brand-color font-semibold text-xl">
                 {title}
               </h3>
