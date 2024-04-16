@@ -1,6 +1,6 @@
 import React from "react";
 import openGift from "../assets/images/openGift.png";
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { blockChain, linkIcon, pythonIcon, reactIcon } from "./icons";
 
 interface Props {
@@ -8,7 +8,7 @@ interface Props {
 }
 
 const OpenGiftComp: React.FC<Props> = ({ openGift }) => {
-  return <img className=" w-52" src={openGift.src} alt="Open Gift" />;
+  return <Image className=" w-52" src={openGift.src} alt="Open Gift" />;
 };
 export default function OpenGift() {
   return (

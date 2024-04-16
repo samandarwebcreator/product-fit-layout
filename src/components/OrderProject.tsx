@@ -1,7 +1,7 @@
 import React from "react";
 
 import OrderProjectImage from "../assets/images/OrderProjectImage.png";
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface Props {
   orderProjectImage: StaticImageData;
@@ -9,7 +9,7 @@ interface Props {
 
 const OrderProjectImg: React.FC<Props> = ({ orderProjectImage }) => {
   return (
-    <img
+    <Image
       className="max-w-full md:max-w-[600px] w-full"
       src={orderProjectImage.src}
       alt="computer"

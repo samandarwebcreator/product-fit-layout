@@ -7,7 +7,7 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import heroImage from "../assets/images/hero-photo.png";
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface Props {
   heroImage: StaticImageData;
@@ -15,7 +15,7 @@ interface Props {
 
 const HeroComponent: React.FC<Props> = ({ heroImage }) => {
   return (
-    <img
+    <Image
       className="max-w-full md:max-w-[60%] w-full h-auto mx-auto"
       src={heroImage.src}
       alt="computer"
